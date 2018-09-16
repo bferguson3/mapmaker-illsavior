@@ -147,6 +147,7 @@ class ViewController: NSViewController {
             else if ( brush == brushTypes.door){
                 let outputBits = mapDraw.getByte(Int32(targetByte)) ^ 0b10000000
                 mapDraw.setByte(Int32(targetByte), assignValue: outputBits)
+                //debugPrint(mapDraw.getByte(Int32(targetByte)))
             }
         }
         else if event.keyCode == 0x01 { //"s"
@@ -201,19 +202,19 @@ class ViewController: NSViewController {
             //file = file + ".bin"
         }
         file = file + ".bin"
-        let writingText = String(bytes:mapDraw.getCurrentByteString(), encoding: .utf8)
+        let writingText = NSData(data:mapDraw.getCurrentByteString())
         
         if let dir : NSString = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.allDomainsMask, true).first! as NSString {
                 let path = dir.appendingPathComponent(file);
                 //writing
                 do {
-                    try writingText?.write(toFile: path, atomically: false, encoding: String.Encoding.ascii)
+                    try writingText.write(toFile: path, atomically: false)
                 } catch {
                     /* error handling here */
                 }
                 //reading
                 do {
-                    _ = try NSString(contentsOfFile: path, encoding: String.Encoding.utf8.rawValue)
+                    //_ = try NSString(contentsOfFile: path, encoding: String.Encoding.utf8.rawValue)
                 }
                 catch {
                     /* error handling here */
