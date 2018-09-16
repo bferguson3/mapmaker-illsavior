@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A2461F21025A150002CF1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2461E21025A150002CF1E /* AppDelegate.swift */; };
+		88A2462121025A150002CF1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2462021025A150002CF1E /* ViewController.swift */; };
+		88A2462321025A1B0002CF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A2462221025A1B0002CF1E /* Assets.xcassets */; };
+		88A2462621025A1B0002CF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A2462421025A1B0002CF1E /* Main.storyboard */; };
+		88A2463221025A1C0002CF1E /* MapMakerBenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2463121025A1C0002CF1E /* MapMakerBenTests.swift */; };
+		88A2463D21025A1C0002CF1E /* MapMakerBenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2463C21025A1C0002CF1E /* MapMakerBenUITests.swift */; };
+		88A2464D21025A860002CF1E /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2464C21025A860002CF1E /* MyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88A2462E21025A1B0002CF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A2461321025A150002CF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A2461A21025A150002CF1E;
+			remoteInfo = MapMakerBen;
+		};
+		88A2463921025A1C0002CF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A2461321025A150002CF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A2461A21025A150002CF1E;
+			remoteInfo = MapMakerBen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88A2461B21025A150002CF1E /* MapMakerBen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapMakerBen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A2461E21025A150002CF1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88A2462021025A150002CF1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88A2462221025A1B0002CF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88A2462521025A1B0002CF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88A2462721025A1B0002CF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A2462821025A1B0002CF1E /* MapMakerBen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapMakerBen.entitlements; sourceTree = "<group>"; };
+		88A2462D21025A1B0002CF1E /* MapMakerBenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapMakerBenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A2463121025A1C0002CF1E /* MapMakerBenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMakerBenTests.swift; sourceTree = "<group>"; };
+		88A2463321025A1C0002CF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A2463821025A1C0002CF1E /* MapMakerBenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapMakerBenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A2463C21025A1C0002CF1E /* MapMakerBenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMakerBenUITests.swift; sourceTree = "<group>"; };
+		88A2463E21025A1C0002CF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A2464A21025A850002CF1E /* MapMakerBen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapMakerBen-Bridging-Header.h"; sourceTree = "<group>"; };
+		88A2464B21025A860002CF1E /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		88A2464C21025A860002CF1E /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A2461821025A150002CF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A2462A21025A1B0002CF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A2463521025A1C0002CF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A2461221025A150002CF1E = {
+			isa = PBXGroup;
+			children = (
+				88A2461D21025A150002CF1E /* MapMakerBen */,
+				88A2463021025A1C0002CF1E /* MapMakerBenTests */,
+				88A2463B21025A1C0002CF1E /* MapMakerBenUITests */,
+				88A2461C21025A150002CF1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A2461C21025A150002CF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A2461B21025A150002CF1E /* MapMakerBen.app */,
+				88A2462D21025A1B0002CF1E /* MapMakerBenTests.xctest */,
+				88A2463821025A1C0002CF1E /* MapMakerBenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A2461D21025A150002CF1E /* MapMakerBen */ = {
+			isa = PBXGroup;
+			children = (
+				88A2461E21025A150002CF1E /* AppDelegate.swift */,
+				88A2462021025A150002CF1E /* ViewController.swift */,
+				88A2462221025A1B0002CF1E /* Assets.xcassets */,
+				88A2462421025A1B0002CF1E /* Main.storyboard */,
+				88A2462721025A1B0002CF1E /* Info.plist */,
+				88A2462821025A1B0002CF1E /* MapMakerBen.entitlements */,
+				88A2464B21025A860002CF1E /* MyView.h */,
+				88A2464C21025A860002CF1E /* MyView.m */,
+				88A2464A21025A850002CF1E /* MapMakerBen-Bridging-Header.h */,
+			);
+			path = MapMakerBen;
+			sourceTree = "<group>";
+		};
+		88A2463021025A1C0002CF1E /* MapMakerBenTests */ = {
+			isa = PBXGroup;
+			children = (
+				88A2463121025A1C0002CF1E /* MapMakerBenTests.swift */,
+				88A2463321025A1C0002CF1E /* Info.plist */,
+			);
+			path = MapMakerBenTests;
+			sourceTree = "<group>";
+		};
+		88A2463B21025A1C0002CF1E /* MapMakerBenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88A2463C21025A1C0002CF1E /* MapMakerBenUITests.swift */,
+				88A2463E21025A1C0002CF1E /* Info.plist */,
+			);
+			path = MapMakerBenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A2461A21025A150002CF1E /* MapMakerBen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A2464121025A1C0002CF1E /* Build configuration list for PBXNativeTarget "MapMakerBen" */;
+			buildPhases = (
+				88A2461721025A150002CF1E /* Sources */,
+				88A2461821025A150002CF1E /* Frameworks */,
+				88A2461921025A150002CF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapMakerBen;
+			productName = MapMakerBen;
+			productReference = 88A2461B21025A150002CF1E /* MapMakerBen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88A2462C21025A1B0002CF1E /* MapMakerBenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A2464421025A1C0002CF1E /* Build configuration list for PBXNativeTarget "MapMakerBenTests" */;
+			buildPhases = (
+				88A2462921025A1B0002CF1E /* Sources */,
+				88A2462A21025A1B0002CF1E /* Frameworks */,
+				88A2462B21025A1B0002CF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A2462F21025A1B0002CF1E /* PBXTargetDependency */,
+			);
+			name = MapMakerBenTests;
+			productName = MapMakerBenTests;
+			productReference = 88A2462D21025A1B0002CF1E /* MapMakerBenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88A2463721025A1C0002CF1E /* MapMakerBenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A2464721025A1C0002CF1E /* Build configuration list for PBXNativeTarget "MapMakerBenUITests" */;
+			buildPhases = (
+				88A2463421025A1C0002CF1E /* Sources */,
+				88A2463521025A1C0002CF1E /* Frameworks */,
+				88A2463621025A1C0002CF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A2463A21025A1C0002CF1E /* PBXTargetDependency */,
+			);
+			name = MapMakerBenUITests;
+			productName = MapMakerBenUITests;
+			productReference = 88A2463821025A1C0002CF1E /* MapMakerBenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A2461321025A150002CF1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "barely conscious";
+				TargetAttributes = {
+					88A2461A21025A150002CF1E = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					88A2462C21025A1B0002CF1E = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 88A2461A21025A150002CF1E;
+					};
+					88A2463721025A1C0002CF1E = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 88A2461A21025A150002CF1E;
+					};
+				};
+			};
+			buildConfigurationList = 88A2461621025A150002CF1E /* Build configuration list for PBXProject "MapMakerBen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A2461221025A150002CF1E;
+			productRefGroup = 88A2461C21025A150002CF1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A2461A21025A150002CF1E /* MapMakerBen */,
+				88A2462C21025A1B0002CF1E /* MapMakerBenTests */,
+				88A2463721025A1C0002CF1E /* MapMakerBenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A2461921025A150002CF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A2462321025A1B0002CF1E /* Assets.xcassets in Resources */,
+				88A2462621025A1B0002CF1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A2462B21025A1B0002CF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A2463621025A1C0002CF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A2461721025A150002CF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A2462121025A150002CF1E /* ViewController.swift in Sources */,
+				88A2461F21025A150002CF1E /* AppDelegate.swift in Sources */,
+				88A2464D21025A860002CF1E /* MyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A2462921025A1B0002CF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A2463221025A1C0002CF1E /* MapMakerBenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A2463421025A1C0002CF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A2463D21025A1C0002CF1E /* MapMakerBenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88A2462F21025A1B0002CF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A2461A21025A150002CF1E /* MapMakerBen */;
+			targetProxy = 88A2462E21025A1B0002CF1E /* PBXContainerItemProxy */;
+		};
+		88A2463A21025A1C0002CF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A2461A21025A150002CF1E /* MapMakerBen */;
+			targetProxy = 88A2463921025A1C0002CF1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88A2462421025A1B0002CF1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A2462521025A1B0002CF1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A2463F21025A1C0002CF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88A2464021025A1C0002CF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		88A2464221025A1C0002CF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MapMakerBen/MapMakerBen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YJ56MH7D4;
+				INFOPLIST_FILE = MapMakerBen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barelyconscious.ILLSAVIORMapMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapMakerBen/MapMakerBen-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		88A2464321025A1C0002CF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MapMakerBen/MapMakerBen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YJ56MH7D4;
+				INFOPLIST_FILE = MapMakerBen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barelyconscious.ILLSAVIORMapMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapMakerBen/MapMakerBen-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		88A2464521025A1C0002CF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YJ56MH7D4;
+				INFOPLIST_FILE = MapMakerBenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barelyconscious.MapMakerBenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapMakerBen.app/Contents/MacOS/MapMakerBen";
+			};
+			name = Debug;
+		};
+		88A2464621025A1C0002CF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YJ56MH7D4;
+				INFOPLIST_FILE = MapMakerBenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barelyconscious.MapMakerBenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapMakerBen.app/Contents/MacOS/MapMakerBen";
+			};
+			name = Release;
+		};
+		88A2464821025A1C0002CF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YJ56MH7D4;
+				INFOPLIST_FILE = MapMakerBenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barelyconscious.MapMakerBenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = MapMakerBen;
+			};
+			name = Debug;
+		};
+		88A2464921025A1C0002CF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5YJ56MH7D4;
+				INFOPLIST_FILE = MapMakerBenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barelyconscious.MapMakerBenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = MapMakerBen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A2461621025A150002CF1E /* Build configuration list for PBXProject "MapMakerBen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A2463F21025A1C0002CF1E /* Debug */,
+				88A2464021025A1C0002CF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A2464121025A1C0002CF1E /* Build configuration list for PBXNativeTarget "MapMakerBen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A2464221025A1C0002CF1E /* Debug */,
+				88A2464321025A1C0002CF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A2464421025A1C0002CF1E /* Build configuration list for PBXNativeTarget "MapMakerBenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A2464521025A1C0002CF1E /* Debug */,
+				88A2464621025A1C0002CF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A2464721025A1C0002CF1E /* Build configuration list for PBXNativeTarget "MapMakerBenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A2464821025A1C0002CF1E /* Debug */,
+				88A2464921025A1C0002CF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A2461321025A150002CF1E /* Project object */;
+}
